@@ -8,6 +8,8 @@ There are a few ways to condtionally render our data
 
 All of these methods are acceptable to use and will have their own use cases.
 
+Of course, with Props in React, we are able to pass data between multiple components, allowing our pages to appear totally different based on the conditions we're in!
+
 
 ## Ternaries vs If/Else
 
