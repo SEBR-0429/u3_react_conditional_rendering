@@ -66,4 +66,22 @@ return <IsLoggedIn userName = {props.userName}/>
 
 ### Ternaries
 
+Ternaries in React work the same way they do in regular Javascript operations. And like our If Else's, we can return either full components, or regular data within. Lets go into our Header file, make sure we're pulling in props, and return some information based on whether or not we are logged in:
+
+```jsx
+Header.jsx
+
+const Header = (props) => {
+    console.log(props)
+    const isLoggedIn = props.isLoggedIn
+    
+    return isLoggedIn ?  <h2>Welcome! </h2> : <h2> Create Account</h2>
+}
+
+export default Header
+```
+
+
+
+
 
