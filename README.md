@@ -1,12 +1,17 @@
 # Conditional Rendering in React
 
+
+
+
 React is an incredible framework with tremendous power. One of the most powerful parts of working with React is the ability to run conditions on what we render on our screen.
 
 There are a few ways to condtionally render our data
 - Ternaries vs If / Else Statements vs Switch Statements
 - Rendering Components vs Rendering Data
+- Switch Statements returning Components
 
-All of these methods are acceptable to use and will have their own use cases.
+All of these methods are acceptable to use and will have their own use cases. The most important thing to remember is that the Return Statement goes inside of our If/Else Statements, while Ternaries go into our Return Statements.
+
 
 Of course, with Props in React, we are able to pass data between multiple components, allowing our pages to appear totally different based on the conditions we're in!
 
