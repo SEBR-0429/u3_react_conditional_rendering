@@ -41,6 +41,8 @@ Our Layout should like this. There are a few ways of doing this, for this lesson
 
 
 ```jsx
+//Layout.jsx
+
 const Layout =(props) => {
  return {
     if (!props.isLoggedIn) {
@@ -69,7 +71,7 @@ return <IsLoggedIn userName = {props.userName}/>
 Ternaries in React work the same way they do in regular Javascript operations. And like our If Else's, we can return either full components, or regular data within. Lets go into our Header file, make sure we're pulling in props, and return some information based on whether or not we are logged in:
 
 ```jsx
-Header.jsx
+//Header.jsx
 
 const Header = (props) => {
     console.log(props)
@@ -81,7 +83,29 @@ const Header = (props) => {
 export default Header
 ```
 
+### Switch Statements:
 
+Switch Statements are yet another way of setting a condition to render our data. They follow the same rules as they did in vanilla javascript. It would look something like this if we were to use them in our code:
 
+```jsx
 
+const userType = "guest"
 
+switch (userType) {
+      case "guest":
+        return <GuestComponent/>
+        break
+
+      case "user":
+        return <UserComponent/>
+        break
+
+      case "admin:
+        return <AdminComponent/>
+        break
+
+      default:
+        return <IsLoggedOut/>
+
+}
+```
