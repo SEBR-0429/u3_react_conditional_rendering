@@ -125,6 +125,8 @@ switch (userType) {
 
 ### Guard Operators
 
+<img src ="https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/01/Walter-Dismisses-The-Dude-In-The-Big-Lebowski.jpg"/>
+
 Conditional Rendering in React is wonderful for things like Logged In/Out variables, but it also has an incredibly powerful usage when pulling API data. Because it may take a few ms longer to pull and render the data than for the React DOM to load, it is very common to see errors saying our data is null/undefined when working with live data. We can use conditional rendering to prevent this by adding in a placeholder until the data loads up.
 
 This follows the same rules, and can be written in many forms. It is common to use our && operators so that we are sure we are getting all of our data before we load up. This Two of the ways we will see may look like this:
