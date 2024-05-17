@@ -114,3 +114,36 @@ switch (userType) {
 
 }
 ```
+
+### Guard Operators
+
+Conditional Rendering in React is wonderful for things like Logged In/Out variables, but it also has an incredibly powerful usage when pulling API data. Because it may take a few ms longer to pull and render the data than for the React DOM to load, it is very common to see errors saying our data is null/undefined when working with live data. We can use conditional rendering to prevent this by adding in a placeholder until the data loads up.
+
+This follows the same rules, and can be written in many forms. It is common to use our && operators so that we are sure we are getting all of our data before we load up. This Two of the ways we will see may look like this:
+
+If Else Statements:
+```jsx
+
+if (response.data && response.data.userName) {
+return {
+ <h1> Welcome {response.data.userName} </h1>
+ }
+} else {
+return {
+ <h2> Loading Please Wait </h2>
+  }
+}
+```
+
+And for individual peices of data, like the "Prime Eligiable" or "On Sale!" blocks in amazon
+
+
+```jsx
+
+return {
+ response.data.isPrimeEligable ? <h2> 20% Off Sale Now! </h2> : null
+}
+
+```
+
+These can add a massive amount of control and power to our sites, especially when working with large data sets, like we'll see later this week!
