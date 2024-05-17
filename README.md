@@ -94,6 +94,8 @@ export default Header
 
 <img src ="https://is1-ssl.mzstatic.com/image/thumb/VQxilvxrSKyrw4KaQkeyYQ/1200x675mf.jpg"/>
 
+Ternaries can be a bit confusing at first, but they all follow this similar syntax. Try them out, and see how much better you feel with them after a few attempts!
+
 ### Switch Statements:
 
 Switch Statements are yet another way of setting a condition to render our data. They follow the same rules as they did in vanilla javascript. It would look something like this if we were to use them in our code:
