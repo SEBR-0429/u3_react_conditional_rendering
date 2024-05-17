@@ -61,7 +61,7 @@ const Layout =(props) => {
 
 ```
 
-<img src ="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/11/Jeff-Bridges-in-The-Big-Lebowski.jpg/>
+<img src ="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/11/Jeff-Bridges-in-The-Big-Lebowski.jpg"/>
 
 As you can see, we can render whole components into our conditions, how cool is that!
 
@@ -91,6 +91,8 @@ const Header = (props) => {
 
 export default Header
 ```
+
+<img src ="https://is1-ssl.mzstatic.com/image/thumb/VQxilvxrSKyrw4KaQkeyYQ/1200x675mf.jpg"/>
 
 ### Switch Statements:
 
@@ -151,3 +153,8 @@ return {
 ```
 
 These can add a massive amount of control and power to our sites, especially when working with large data sets, like we'll see later this week!
+
+So relax, using these few peices of code, we should be able to prevent any errors, and keep our pages loading up smooth!
+
+
+<img src ="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/02/the_dude_listening_to_a_tape_in_the_big_lebowski.jpg" />
