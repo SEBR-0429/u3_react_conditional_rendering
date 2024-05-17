@@ -1,6 +1,6 @@
 # Conditional Rendering in React
 
-
+<img src="https://meetinmontauk.com/wp-content/uploads/2015/04/lebowski_condition.jpg"/>
 
 
 React is an incredible framework with tremendous power. One of the most powerful parts of working with React is the ability to run conditions on what we render on our screen.
@@ -14,6 +14,8 @@ All of these methods are acceptable to use and will have their own use cases. Th
 
 
 Of course, with Props in React, we are able to pass data between multiple components, allowing our pages to appear totally different based on the conditions we're in!
+
+Now, lets see what condition our condition is in
 
 
 ## Ternaries vs If/Else
@@ -58,6 +60,8 @@ const Layout =(props) => {
 }
 
 ```
+
+<img src ="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/11/Jeff-Bridges-in-The-Big-Lebowski.jpg/>
 
 As you can see, we can render whole components into our conditions, how cool is that!
 
