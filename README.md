@@ -27,7 +27,7 @@ We'll start with our If Else statement. Remember, we need to import our 2 compon
 
 
 ```jsx
-Layout.jsx
+//Layout.jsx
 
 import IsLoggedIn from './IsLoggedIn'
 import IsLoggedOut from './IsLoggedOut'
