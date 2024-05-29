@@ -10,8 +10,7 @@ There are a few ways to condtionally render our data
 - Rendering Components vs Rendering Data
 - Switch Statements returning Components
 
-All of these methods are acceptable to use and will have their own use cases. The most important thing to remember is that the Return Statement goes inside of our If/Else Statements, while Ternaries go into our Return Statements.
-
+All of these methods are acceptable to use and will have their own use cases. The most important thing to remember is that the Return Statement goes inside of our If/Else Statements, while Ternaries go into our Return Statements. You can put Return's inside of outside of Switch statements.
 
 Of course, with Props in React, we are able to pass data between multiple components, allowing our pages to appear totally different based on the conditions we're in!
 
@@ -98,7 +97,7 @@ Ternaries can be a bit confusing at first, but they all follow this similar synt
 
 ### Switch Statements:
 
-Switch Statements are yet another way of setting a condition to render our data. They follow the same rules as they did in vanilla javascript. It would look something like this if we were to use them in our code:
+Switch Statements are yet another way of setting a condition to render our data. They follow the same rules as they did in vanilla javascript. It may look something like this if we were to use them in our code:
 
 ```jsx
 
@@ -150,9 +149,7 @@ And for individual peices of data, like the "Prime Eligiable" or "On Sale!" bloc
 
 ```jsx
 
-return {
- response.data.isPrimeEligable ? <h2> 20% Off Sale Now! </h2> : null
-}
+const PrimeEligableLogo = () =>  response.data.isPrimeEligable ? <h2> 20% Off Sale Now! </h2> : null
 
 ```
 
