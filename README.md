@@ -10,7 +10,7 @@ There are a few ways to condtionally render our data
 - Rendering Components vs Rendering Data
 - Switch Statements returning Components
 
-All of these methods are acceptable to use and will have their own use cases. The most important thing to remember is that the Return Statement goes inside of our If/Else Statements, while Ternaries go into our Return Statements. You can put Return's inside of outside of Switch statements.
+All of these methods are acceptable to use and will have their own use cases. The most important thing to remember is that the Return Statement goes inside of our If/Else Statements, while you can put Return's inside or outside of Switch and Ternary statements.
 
 Of course, with Props in React, we are able to pass data between multiple components, allowing our pages to appear totally different based on the conditions we're in!
 
@@ -93,7 +93,7 @@ export default Header
 
 <img src ="https://is1-ssl.mzstatic.com/image/thumb/VQxilvxrSKyrw4KaQkeyYQ/1200x675mf.jpg"/>
 
-Ternaries can be a bit confusing at first, but they all follow this similar syntax. Try them out, and see how much better you feel with them after a few attempts!
+Ternaries can be a bit confusing at first, but they all follow this similar syntax. Try them out, and see how much better you feel with them after a few attempts! They can either go inside of a Return statement, or we can return full Components inside of a Ternary
 
 ### Switch Statements:
 
