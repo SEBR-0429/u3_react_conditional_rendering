@@ -112,7 +112,7 @@ switch (userType) {
         return <UserComponent/>
         break
 
-      case "admin:
+      case "admin":
         return <AdminComponent/>
         break
 
