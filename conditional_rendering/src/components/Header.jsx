@@ -6,7 +6,9 @@
 //if we are not logged in, we will have "Create Account" rendered in the header
 
 const Header = () => {
-    return {
+    return (
         //code goes here!
-    }
+    )
 }
+
+export default Header
